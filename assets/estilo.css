@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root{
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-texto: "Montserrat", sans-serif;
+    --cor-principal: #C9C9C9;
+    --cor-secundaria: #22D4FD;
+    --cor-terciaria: #000000;
+    --cor-hover: #272727;
+}
+
+
+
+body{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    box-sizing: border-box;
+    font-size: 1.25rem;
+}
+
+#cabecalho{
+    padding: 5% 0 0 18%;
+
+}
+
+
+#itens-cabecalho{
+    display: flex;
+    gap: 40px;
+}
+
+.links-cabecalho{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+}
+
+#principal{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 5% 15%;
+    height: auto
+
+}
+
+.caixa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 2rem;
+    font-family: var(--fonte-titulo);
+
+}
+
+#sublinhado{
+    color: var(--cor-secundaria);
+}
+
+#redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itens-redes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: var(--cor-principal);
+    border: var(--cor-secundaria) solid 1px;
+    border-radius: 8px;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itens-redes:hover{
+    border: var(--cor-secundaria) solid 1px;
+    background-color: var(--cor-hover);
+    color: var(--cor-principal);
+}
+
+#foto{
+    width: 50%;
+    border-radius: 16px;
+}
+
+#rodape {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 24px;
+}
+
+@media(max-width: 800px) {
+
+   #cabecalho{
+    padding: 10% 0 0 0;
+   }
+
+   #itens-cabecalho{
+    justify-content: center;
+   }
+
+   #principal{
+    flex-direction: column-reverse;
+   }
+
+   .caixa{
+    gap: 10px;
+    width: auto;
+   }
+    
+   #foto{
+    width: 250px;
+    height: 350px;
+   }
+}
