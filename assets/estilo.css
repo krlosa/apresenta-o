@@ -115,6 +115,7 @@ body{
 
    #itens-cabecalho{
     justify-content: center;
+    display: flex;
    }
 
    #principal{
