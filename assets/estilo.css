@@ -110,8 +110,6 @@ body{
 @media(max-width: 1000px) {
 
    #cabecalho{
-    display: flex;
-    justify-content: center;
     padding: 10% 0 0 0;
    }
 
