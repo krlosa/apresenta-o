@@ -114,6 +114,7 @@ body{
    }
 
    #itens-cabecalho{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
    }
