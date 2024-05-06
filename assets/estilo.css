@@ -118,7 +118,7 @@ body{
    #itens-cabecalho{
     display: flex;
     justify-content: center;
-    gap: 30%;
+    gap: 10%;
    }
 
    #principal{
