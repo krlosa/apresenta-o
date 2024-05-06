@@ -110,7 +110,7 @@ body{
 @media(max-width: 1000px) {
 
    #cabecalho{
-    padding: 10% 0 0 0;
+    padding: 10% 0 0 10%;
    }
 
    #itens-cabecalho{
